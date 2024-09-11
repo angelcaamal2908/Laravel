@@ -1,0 +1,21 @@
+/* resources/css/styles.css */
+.dashboard {
+    width: 20%;
+    padding: 15px;
+    background-color: #f8f9fa;
+    height: calc(100vh - 150px);
+}
+.content {
+    width: 80%;
+    padding: 15px;
+    height: calc(100vh - 150px);
+}
+.main-container {
+    display: flex;
+}
+.top-image {
+    background-image: url('/images/top_image.jpg'); /* Ajusta la ruta según la imagen */
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
