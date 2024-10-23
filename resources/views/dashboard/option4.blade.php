@@ -1,19 +1,19 @@
-@extends('dashboard')
-
-@section('dashboard-content')
-    <div class="container mt-4">
-        <h2>Opción 4: Configuraciones</h2>
-        <p>Ajusta las configuraciones globales desde esta sección.</p>
-
-        <div class="card">
-            <div class="card-header">
-                <i class="fas fa-cogs"></i> Configuraciones Generales
-            </div>
-            <div class="card-body">
-                <p>Aquí puedes modificar las configuraciones generales.</p>
-                <button class="btn btn-success"><i class="fas fa-save"></i> Guardar Cambios</button>
-            </div>
-        </div>
-    </div>
-@endsection
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuraciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-yellow-600 text-white p-4">
+        <h1 class="text-3xl font-bold">Configuraciones</h1>
+    </header>
+    <main class="p-6">
+        <h2 class="text-2xl font-semibold">Ajustes del Sistema</h2>
+        <p class="mt-2 text-gray-700">Ajusta las configuraciones generales del sistema.</p>
+    </main>
+</body>
+</html>
 

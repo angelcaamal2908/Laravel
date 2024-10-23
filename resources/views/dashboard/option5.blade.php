@@ -1,19 +1,19 @@
-@extends('dashboard')
-
-@section('dashboard-content')
-    <div class="container mt-4">
-        <h2>Opción 5: Perfil</h2>
-        <p>Visualiza y edita tu perfil de usuario.</p>
-
-        <div class="card">
-            <div class="card-header">
-                <i class="fas fa-user-circle"></i> Perfil del Usuario
-            </div>
-            <div class="card-body">
-                <p>Información del perfil del usuario.</p>
-                <button class="btn btn-primary"><i class="fas fa-edit"></i> Editar Perfil</button>
-            </div>
-        </div>
-    </div>
-@endsection
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-purple-600 text-white p-4">
+        <h1 class="text-3xl font-bold">Perfil del Usuario</h1>
+    </header>
+    <main class="p-6">
+        <h2 class="text-2xl font-semibold">Información del Perfil</h2>
+        <p class="mt-2 text-gray-700">Administra tu perfil y actualiza tu información personal.</p>
+    </main>
+</body>
+</html>
 
